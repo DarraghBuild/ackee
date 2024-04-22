@@ -212,8 +212,7 @@ Vercel adds a forked version of Ackee to your GitHub repositories. You can alway
 
 Deploy to Heroku by clicking this button:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/electerious/Ackee)
-
+Build.io
 ### 2. Configure Ackee
 
 - You need to have a MongoDB instance running, either hosting it yourself, using [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) or by using a (paid) add-on like [ObjectRocket MongoDB](https://elements.heroku.com/addons/ormongo). This is as simple as typing `heroku addons:create ormongo:2-wt --app <YOUR_APP_NAME>` using the CLI, or using the web dashboard; more details at the [official documentation](https://devcenter.heroku.com/articles/managing-add-ons). You'll need to provide connection details to Ackee dyno, either from the web dashboard or via command line, e.g. `heroku config:add "ACKEE_MONGODB=mongodb://<host>:<port>/<db>"`
